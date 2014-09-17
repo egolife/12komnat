@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Антикафе 12 Комнат</title>
+
+		<meta charset="utf-8">
+		<meta name="keywords" content="антикафе, 12 комнат, 12rooms, 12komnat, таймкафе, свободное пространство, 
+		проведение тренингов, проведение семинаров,  коворкинг , coworking,  co-working , игра в мафию, мафия в 
+		питере, игра в покер, игра в кикер, кикер, черничный латте, игровая комната, игровая зона, играть в x-box">
+
+
+		<!-- <meta property="og:image" content="http://allsoft.ru/bitrix/templates/allsoft2011/images/8let/dragon_normal.jpg" />
+		<meta property="og:title" content="Я – лицензионный Дракон!" />
+		<meta property="og:description" content="Результат теста: Дракон почти Ваш «конек»! Вы пока не можете преподавать Драконоведение, но на верном пути!" /> -->
+
+		<link rel="stylesheet" type="text/css" href="css/slider.css">
+		<link rel="stylesheet" type="text/css" href="css/sprites.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.flipcountdown.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="http://fnt.webink.com/wfs/webink.css/?project=1998EF88-139A-48DD-AC1C-D7B72EEA034C&fonts=8C5B073A-F3EB-BF79-99E3-C3C42439FD61:f=MyriadPro-BoldCond,39FEB533-C926-4578-87C0-2D25696AA0F9:f=MyriadPro-Cond" rel="stylesheet" type="text/css"/>		
+		<link rel="shortcut icon" href="favicon_1.ico" type="image/x-icon">
+		<link rel="icon" href="favicon_1.ico" type="image/x-icon">
+		<script type="text/javascript" src="//vk.com/js/api/openapi.js?98"></script>
+		<!--[if lt IE 9]>
+		<script>
+		var e = ("article,figcaption,figure,footer,header,hgroup,section").split(',');
+		for (var i = 0; i < e.length; i++) {
+		document.createElement(e[i]);
+		}
+		</script>
+		<![endif]-->
+	</head>
+	<body>
+		<section class="wrapper">
+			<header>
+				<section class="wing_left">
+					<h1>антикафе "12 комнат"</h1>
+				</section>
+				<section class="wing_right">
+					<div>(812) 923-70-96<a class="button" id="callback" href="#callback_form">заказать звонок</a></div>
+				</section>
+				<div class="shadow"></div>
+				<section class="logo"><a href="/"><img src="/img/logo.png" alt="logo"></a></section>
+				<div class="woods_key"></div>
+			</header>
+
+			<section class="content">
+
+				<!-- Modal -->
+				<div class="banner-popUp" id="banner-popUp">
+					<a href="#" class="closePopup"></a>
+					<ul>
+						<li><span class="text">Количество <strong>без ограничений</strong></span><span class="arrow"></span></li>
+						<li><span class="text">Угощаем суши каждый понедельник <strong>с 12 до 18-00</strong></span><span class="arrow"></span></li>
+						<li><span class="text">Готовят <strong>профессиональные сушисты</strong></span><span class="arrow"></span></li>
+						<li><span class="text">Условия: <strong>чайный</strong> или <strong>кофейный</strong> тариф + счет от 150руб</span><span class="arrow"></span></li>
+						<li><span class="text"><strong>Никаких доплат</strong> к тарифу не требуется</span><span class="arrow"></span></li>
+					</ul>
+					<h2>Будем рады видеть вас</h2>
+				</div>
+
+				<div id="banner-bike">
+					<a href="#" class="closePopup"></a>
+					<p class="para1">Друзья, мы прокатываем<br> велосипеды!</p>
+					<p class="para2">300 р/сутки</p>
+					<p class="para3">Документ в залог<br> и катайтесь сколько влезет :)</p>
+				</div>
+
+				<section class="topBanners clearfix">
+					<div class="banner">
+						<a href="#banner-popUp" rel="leanModal" id="banner-trigger" class="gradient-overlay">
+							<div class="banner-img">
+								<h3 class="banner-heading">Суши-понедельники</h3>
+								<div class="banner-text">
+									В антикафе "12 комнат" <span class="splitter"></span>
+									<div class="banner-btn">Условия акции</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<a href="#banner-bike" rel="leanModal" id="banner-bike-trigger">
+						<h3>Велопрокат за 300 р/сутки</h3>
+						<div class="inner">В антикафе "12 комнат"<div class="banner-bike-btn">Условия акции</div></div>
+					</a>
+				</section>
+
+				<section class="action">
+					<h2>Скидка 50% на первое посещение 12 комнат</h2>
+					<h3>приди и попробуй сам!</h3>
+					<form id="action_form" action="thx.php" method="post">
+						<input type="text" placeholder="Введите ваши имя и фамилию" required name="name">
+						<label><input type="radio" name="first-visit" value="newVisitor"> Я <strong>еще не был</strong> в 12 Комнатах</label>
+						<label><input type="radio" checked="checked" name="first-visit" value="oldVisitor"> Я <strong>уже был</strong> в антикафе 12 Комнат</label>
+						<input type="hidden" id="actionChoice" name="actionChoice" value="">
+						<input id="act" type="submit" value="ХОЧУ СКИДКУ НА ПОСЕЩЕНИЕ" name="send">
+					</form>
+					<p>до конца акции</p>
+					<div class="timer"></div>
+					<div class="sideribbon"><h2>Акция!</h2></div>
+				</section>
+
+				<section class="rooms clearfix">
+					<h2>наши комнаты</h2>
+					<div class="map">
+						<div class="scheme">
+							<div class="map_room" id="room1"></div>
+							<div class="map_room" id="room2"></div>
+							<div class="map_room" id="room3"></div>
+							<div class="map_room" id="room4"></div>
+							<div class="map_room" id="room5"></div>
+							<div class="map_room" id="room6"></div>
+							<div class="map_room" id="room7"></div>
+							<div class="map_room" id="room8"></div>
+							<div class="map_room" id="room9"></div>
+							<div class="map_room" id="room10"></div>
+							<div class="map_room" id="room11"></div>
+							<div class="map_room" id="room12"></div>
+							<div class="map_room" id="room13"></div>
+						</div>
+						<ul class="legend">
+							<li><a href="#" class="xtr_choice1"><span>Комната 1</span>..............Кухня/прихожая</a></li>
+							<li><a href="#" class="xtr_choice2"><span>Комната 2</span>..............Коворкинг-зона</a></li>
+							<li><a href="#" class="xtr_choice3"><span>Комната 3</span>..............Музыкальная гостиная</a></li>
+							<li><a href="#" class="xtr_choice4"><span>Комната 4</span>..............Мягкая комната 1</a></li>
+							<li><a href="#" class="xtr_choice5"><span>Комната 5</span>..............Мягкая комната 2</a></li>
+							<li><a href="#" class="xtr_choice6"><span>Комната 6</span>..............Тренинговая/лекционная</a></li>
+							<li><a href="#" class="xtr_choice7"><span>Комната 7</span>..............Библиотека</a></li>
+							<li><a href="#" class="xtr_choice8"><span>Комната 8</span>..............Кинозал</a></li>
+							<li><a href="#" class="xtr_choice9"><span>Комната 9</span>..............Круглый стол</a></li>
+							<li><a href="#" class="xtr_choice10"><span>Комната 10</span>............Игровая</a></li>
+							<li><a href="#" class="xtr_choice11"><span>Комната 11</span>............Чилаут 1</a></li>
+							<li><a href="#" class="xtr_choice12"><span>Комната 12</span>............Чилаут 2</a></li>
+							<li><a href="#" class="xtr_choice13"><span>FREE-ZONE</span>.............Зона для двоих</a></li>
+						</ul>
+					</div>
+					<div class="detailed">
+					<!-- Сюда подгружаем содержимое файдов about...html по клику -->
+					</div>
+				</section>
+
+				<section class="activities clearfix">
+					<h2>из чего состоят 12 комнат</h2>
+					<section class="clearfix">
+						<figure><a class="buble buble_nsel" id="coffee_btn"><div class="coffee"></div></a><figcaption>Кофе</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="tea_btn"><div class="tea"></div></a><figcaption>Китайский чай</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="tablegames_btn"><div class="table-games"></div></a><figcaption>Настольные игры</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="cinema_btn"><div class="cinema"></div></a><figcaption>Кинозал</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="videogames_btn"><div class="video-games"></div></a><figcaption>Видеоигры</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="breakfast_btn"><div class="breakfast"></div></a><figcaption>Еда</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="kicker_btn"><div class="kicker"></div></a><figcaption>Кикер</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="pong_btn"><div class="ping-pong"></div></a><figcaption>Пинг-Понг</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="concerts_btn"><div class="music"></div></a><figcaption>Домашние концерты</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="themed_btn"><div class="shows"></div></a><figcaption>Тематические мероприятия</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="cowork_btn"><div class="work"></div></a><figcaption>Коворкинг</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="trains_btn"><div class="education"></div></a><figcaption>Проведение тренингов</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="order_btn"><div class="rent"></div></a><figcaption>Бронирование</figcaption>
+						</figure>
+						<figure><a class="buble buble_nsel" id="bookcrossing_btn"><div class="books"></div></a><figcaption>Bookcrossing</figcaption>
+						</figure>
+					</section>
+					<div class="detailed">
+					<!-- сюда подгружаем слайды и статьи по активностям -->
+						<div class="extra_el"></div>
+					</div>
+				</section>
+
+				<section class="rates clearfix">
+					<h2>тарифы</h2>
+					<article>В 12 комнатах Вы <strong class="bold">платите только за время</strong>, которое находитесь у нас. 
+					<br>Средний чек нашего посетителя за год работы составил <span class="bigger">197 рублей</span></article>
+					<figure class="rate">
+						<figcaption>Базовый тариф</figcaption>
+						<div class="include">
+							<div>
+								<span>2 pуб/минута первый час<br>
+								1 pуб/минута остальные часы</span><br>
+								<span class="bot_pos">
+								Как только счетчик достигает <span class="bigger">400 рублей</span> - он замирает. 
+								И вы, приходя сразу после открытия и уходя вместе с работниками, 
+								заплатите только их.</span>
+							</div>
+						</div>
+						<div class="cost">
+							<span class="caption">Без ограничений:</span>
+							<ul>
+								<li>Более 10 видов классического чая</li>
+								<li>Печенье, вафельки, сушки, крекеры, тосты и др.</li>	
+								<li>Участие во всех наших мероприятиях и активностях</li>
+							</ul>
+
+						</div>
+						<div></div>
+					</figure>
+					<figure class="rate">
+						<figcaption>Чайный тариф</figcaption>
+						<div class="include">
+							<div>
+								<span>2 pуб/минута любой час</span><br>
+								<span class="bot_pos">
+								Как только счетчик достигает <span class="bigger">500 рублей</span> - он замирает. И вы, приходя сразу после 
+								открытия и уходя вместе с работниками, заплатите только их.</span>
+							</div>
+
+						</div>
+						<div class="cost">
+							<span class="caption">Все что входит в базовый тариф:</span>
+							<p class="big_first">+ Коллекция китайских чаев</p>
+							<p class="big_first">+ Участие в чайной церемонии</p>
+						</div>
+						<div></div>
+					</figure>				
+					<figure class="rate">
+						<figcaption>Кофейный тариф</figcaption>
+						<div class="include">
+							<div>
+								<span>3 pуб/минута первый час<br>
+								3 pуб/минута второй час<br>							
+								1 pуб/минута остальные часы</span><br>
+								<span class="bot_pos">
+								Как только счетчик достигает <span class="bigger">600 рублей</span> - он замирает. И вы, приходя сразу после 
+								открытия и уходя вместе с работниками, заплатите только их.</span>
+							</div>	
+						</div>
+						<div class="cost">
+							<span class="caption">Все что входит в базовый тариф:</span>
+							<p class="big_first">+ Все кофейное меню без ограничений</p>
+						</div>
+						<div></div>
+					</figure>				
+				</section>
+	
+				<section class="reviews clearfix">
+					<h2>отзывы о нас</h2>
+					<div><iframe width="560" height="316" src="//www.youtube.com/embed/KkBr-hOZU9g" allowfullscreen></iframe></div>
+					<div>
+						<script type="text/javascript">VK.init({apiId: 3779923, onlyWidgets: true});</script>
+						<!--<div id="vk_groups" style="display: inline-block;"></div>
+						<script type="text/javascript">
+							VK.Widgets.Group("vk_groups", {mode: 0, width: "220", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 46657563);
+						</script> -->
+						<div id="vk_comments" style="display: inline-block; vertical-align: top;"></div>
+						<script type="text/javascript">
+						VK.Widgets.Comments("vk_comments", {limit: 10, width: "530", height: "150", attach: "*"});
+						</script>
+					</div>
+				</section>
+
+				<section class="how_find">
+					<h2>как нас найти</h2>
+					<!--<img src="/img/y_map.jpg" alt="разместить карту" width="500" height="310">  yandex-map block -->
+					<div>
+						<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=JRkGBHM0PCjt0aK8nzC9vY2VUTOOMysZ&width=500&height=310"></script>
+					</div>
+					<div> <!-- contacts block -->	
+						<p><strong>ул. Большая Морская д.19, 2 этаж, "12 Комнат"</strong><br>
+						2 минуты и 200 метров от м. Адмиралтейская</p>
+						<p><strong>(812) 923-70-96</strong><br>
+							twelveroomsspb@gmail.com</p>
+						<p>Работаем с <strong>10:00</strong> до <strong>6:00</strong> каждый день</p>
+					</div> 				
+				</section>
+
+			</section>
+			<footer>
+				<img src="/img/logo.png" width="68" height="68" alt="logo2">
+				<p>ул. Большая Морская д.19, 2 этаж, "12 Комнат" <br>923-70-96</p>
+			</footer>
+			<!-- popup form callback-->
+			<form id="callback_form" class="popup_form white-popup-block mfp-hide" action="thx.php" method="post">
+				<input id="name" type="text" placeholder="Ваше имя" required name="pname">
+				<input type="text" placeholder="Номер телефона" required name="phone">
+				<input type="submit" value="ЗАКАЗАТЬ ЗВОНОК" name="psend">
+			</form>
+
+			<p id="visited" class="white-popup-block mfp-hide">
+				К сожалению в данной акции могут принять участие только гости, ранее не посещавшие наше Антикафе.<br>
+				Будем рады видеть Вас в 12 комнат.
+			</p>
+
+			<div id="notVisited" class="white-popup-block mfp-hide">
+				<h2>Так как Вы еще не были в 12 комнат, посетите нас:</h2>
+				
+				<div class="actionContainer clearfix">
+					<div class="action1">
+						<h3>По будням</h3>
+						<p>Бесплатно</p>
+						<a id="weekdayAction" href="http://www.yandex.ru/">хочу бесплатно</a>
+					</div>
+					<div class="action2">
+						<h3>По выходным</h3>
+						<p class="alt">со скидкой <br> 50%</p>
+						<a id="weekendAction" href="/">хочу скидку 50%</a>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.flipcountdown.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="js/responsiveslides.min.js"></script>
+		<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- Yandex.Metrika counter -->
+		<script type="text/javascript">
+		(function (d, w, c) {
+		    (w[c] = w[c] || []).push(function() {
+		        try {
+		            w.yaCounter23752087 = new Ya.Metrika({id:23752087,
+		                    webvisor:true,
+		                    clickmap:true,
+		                    trackLinks:true,
+		                    accurateTrackBounce:true});
+		        } catch(e) { }
+		    });
+
+		    var n = d.getElementsByTagName("script")[0],
+		        s = d.createElement("script"),
+		        f = function () { n.parentNode.insertBefore(s, n); };
+		    s.type = "text/javascript";
+		    s.async = true;
+		    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+		    if (w.opera == "[object Opera]") {
+		        d.addEventListener("DOMContentLoaded", f, false);
+		    } else { f(); }
+		})(document, window, "yandex_metrika_callbacks");
+		</script>
+		<noscript><div><img src="//mc.yandex.ru/watch/23752087" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+		<!-- /Yandex.Metrika counter -->
+		<!--LiveInternet counter--><script type="text/javascript"><!--
+		document.write("<a href='http://www.liveinternet.ru/click' id='li'"+
+		"target=_blank><img src='//counter.yadro.ru/hit?t26.2;r"+
+		escape(document.referrer)+((typeof(screen)=="undefined")?"":
+		";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+		screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+		";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+		"' alt='' title='LiveInternet: показано число посетителей за"+
+		" сегодня' "+
+		"border='0' width='88' height='15'><\/a>")
+		//--></script><!--/LiveInternet-->
+	</body>
+</html>

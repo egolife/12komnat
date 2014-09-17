@@ -1,0 +1,87 @@
+.sld {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 540px;
+}
+.sld li {
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.sld li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+.sld img {
+  display: block;
+  float: left;
+  border: 0;
+}
+.sld_tabs {
+  margin: 0 auto;
+  max-width: 540px;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+.sld_tabs li {
+  display: inline;
+  margin-right: 2px;
+}
+.slider-pager a {
+  display: inline-block;
+  padding: 0;
+}
+.slider-pager img {
+  float: left;
+}
+.slider-pager .sld_here a {
+  background: transparent;
+  box-shadow: 0 0 0 4px #ebd622;
+  position: relative;
+  z-index: 10;
+}
+.sld_nav {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: block;
+  top: 200px;
+}
+.prev {
+  background: url(../img/left_arrow.png) no-repeat;
+  left: 40px;
+}
+.next {
+  background: url(../img/right_arrow.png) no-repeat;
+  right: 40px;
+}
+.activities .prev {
+  left: 25px;
+}
+.activities .next {
+  right: 25px;
+}
+.label {
+  cursor: pointer;
+  color: #000;
+  position: absolute;
+  z-index: 10;
+  left: 230px;
+  bottom: 280px;
+  font-size: 15px;
+  font-family: 'Myriad Pro Bold Condensed';
+  width: 230px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  line-height: 30px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}

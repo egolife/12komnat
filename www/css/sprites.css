@@ -1,0 +1,268 @@
+.k1, .k2, .k3, .k4, .k6, .k7, .k8, .k9, .k10, .k11, .k12, .k13, .room1, .sel,
+.tea, .cinema, .books, .video-games, .work, .breakfast, .table-games, .shows, .coffee, .education, .rent, .kicker, .music, .ping-pong {
+	background: url(../img/sprites.png) no-repeat;
+}
+#room1 {
+	/*background: url(../img/map/1.png) no-repeat;*/
+	width: 114px;
+	height: 126px;
+	top: 138px;
+	left: 33px;
+}
+#room2 {
+	width: 152px;
+	height: 70px;
+	top: 68px;
+	left: 59px;
+}
+#room3 {
+	width: 59px;
+	height: 70px;
+	top: 68px;
+	left: 0;
+}
+#room4 {
+	width: 38px;
+	height: 48px;
+	top: 4px;
+	left: 1px;
+}
+
+#room5 {
+	width: 75px;
+	height: 64px;
+	top: 4px;
+	left: 39px;
+}
+#room6 {
+	width: 67px;
+	height: 74px;
+	top: 190px;
+	left: 308px;
+}
+#room7 {
+	width: 42px;
+	height: 51px;
+	top: 67px;
+	left: 113px;
+}
+#room8 {
+	width: 56px;
+	height: 51px;
+	top: 68px;
+	left: 154px;
+}
+#room9 {
+	width: 47px;
+	height: 72px;
+	top: 68px;
+	left: 211px;
+}
+#room10 {
+	width: 118px;
+	height: 124px;
+	top: 66px;
+	left: 258px;
+}
+#room11 {
+	width: 65px;
+	height: 45px;
+	top: 0;
+	left: 250px;
+}
+#room12 {
+	width: 61px;
+	height: 45px;
+	top: 0;
+	left: 315px;
+}
+#room13 {
+	width: 191px;
+	height: 75px;
+	top: 190px;
+	left: 117px;
+}
+
+#room1:hover {background: url(../img/map/1s.png) no-repeat;}
+#room2:hover {background: url(../img/map/2s.png) no-repeat;}
+#room3:hover {background: url(../img/map/3s.png) no-repeat;}
+#room4:hover {background: url(../img/map/5s.png) no-repeat;}
+#room5:hover {background: url(../img/map/4s.png) no-repeat;}
+#room6:hover {background: url(../img/map/6s.png) no-repeat;}
+#room7:hover {background: url(../img/map/7s.png) no-repeat;}
+#room8:hover {background: url(../img/map/8s.png) no-repeat;}
+#room9:hover {background: url(../img/map/9s.png) no-repeat;}
+#room10:hover {background: url(../img/map/10s.png) no-repeat;}
+#room11:hover {background: url(../img/map/11s.png) no-repeat;}
+#room12:hover {background: url(../img/map/12s.png) no-repeat;}
+#room13:hover {background: url(../img/map/13s.png) no-repeat;}
+
+.k1{
+	background-position: -130px -213px ;
+	width: 75px;
+	height: 64px;
+}
+
+.k2{
+	background-position: -277px -212px ;
+	width: 38px;
+	height: 48px;
+}
+
+.k3{
+	background-position: -20px -202px ;
+	width: 59px;
+	height: 70px;
+}
+
+.k4{
+	background-position: -184px -312px ;
+	width: 152px;
+	height: 70px;
+}
+
+.k6{
+	background-position: 0 -289px ;
+	width: 67px;
+	height: 74px;
+}
+
+.k7{
+	background-position: 0 -405px ;
+	width: 191px;
+	height: 75px;
+}
+
+.k8{
+	background-position: -103px -314px ;
+	width: 42px;
+	height: 51px;
+}
+
+.k9{
+	background-position: -472px -429px ;
+	width: 56px;
+	height: 51px;
+}
+
+.k10{
+	background-position: -220px -408px ;
+	width: 47px;
+	height: 72px;
+}
+
+.k11{
+	background-position: -377px -185px ;
+	width: 118px;
+	height: 124px;
+}
+
+.k12{
+	background-position: -374px -435px ;
+	width: 61px;
+	height: 45px;
+}
+
+.k13{
+	background-position: -295px -435px ;
+	width: 65px;
+	height: 45px;
+}
+
+.room1{
+	background-position: -526px -181px ;
+	width: 114px;
+	height: 126px;
+}
+
+.sel{
+	background-position: -544px -384px ;
+	width: 96px;
+	height: 96px;
+}
+
+.tea{
+	background: url(../img/sprites.png) no-repeat;
+	background-position: -562px -89px;
+	width: 78px;
+	height: 78px;
+}
+
+.cinema{
+	background-position: -480px -86px ;
+	width: 78px;
+	height: 78px;
+}
+
+.books{
+	background-position: -397px -87px ;
+	width: 78px;
+	height: 78px;
+}
+
+.video-games{
+	background-position: -299px -95px ;
+	width: 78px;
+	height: 78px;
+}
+
+.work{
+	background-position: -198px -93px ;
+	width: 78px;
+	height: 78px;
+}
+
+.breakfast{
+	background-position: -98px -93px ;
+	width: 78px;
+	height: 78px;
+}
+
+.table-games{
+	background-position: 0 -97px ;
+	width: 78px;
+	height: 78px;
+}
+
+.shows{
+	background-position: -562px 0;
+	width: 78px;
+	height: 78px;
+}
+
+.coffee{
+	background-position: -460px 0;
+	width: 78px;
+	height: 78px;
+}
+
+.education{
+	background-position: -374px 0;
+	width: 78px;
+	height: 78px;
+}
+
+.rent{
+	background-position: -291px 0;
+	width: 78px;
+	height: 78px;
+}
+
+.kicker{
+	background-position: -206px 0;
+	width: 78px;
+	height: 78px;
+}
+
+.music{
+	background-position: -103px 0;
+	width: 78px;
+	height: 78px;
+}
+
+.ping-pong{
+	background-position: 0 0;
+	width: 78px;
+	height: 78px;
+}
+
